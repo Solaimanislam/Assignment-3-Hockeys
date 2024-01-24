@@ -85,30 +85,30 @@
         <div class="carousel w-full">
             <div id="slide1" class="carousel-item relative w-full ">
                 <img src="images/1.png" alt="">
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a>
-                    <a href="#slide2" class="btn btn-circle">❯</a>
+                <div class="absolute flex lg:justify-between justify-center gap-3 top-3/4 transform -translate-y-1/2 left-5 right-5 lg:top-1/2 ">
+                    <a href="#slide4" class="btn btn-circle bg-black text-white text-base">❮</a>
+                    <a href="#slide2" class="btn btn-circle bg-black text-white text-base">❯</a>
                 </div>
             </div>
             <div id="slide2" class="carousel-item relative w-full">
                 <img src="images/1.png" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a>
-                    <a href="#slide3" class="btn btn-circle">❯</a>
+                <div class="absolute flex lg:justify-between justify-center gap-3 top-3/4 transform -translate-y-1/2 left-5 right-5 lg:top-1/2">
+                    <a href="#slide1" class="btn btn-circle bg-black text-white text-base">❮</a>
+                    <a href="#slide3" class="btn btn-circle bg-black text-white text-base">❯</a>
                 </div>
             </div>
             <div id="slide3" class="carousel-item relative w-full">
                 <img src="images/1.png" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle">❮</a>
-                    <a href="#slide4" class="btn btn-circle">❯</a>
+                <div class="absolute flex lg:justify-between justify-center gap-3 top-3/4 transform -translate-y-1/2 left-5 right-5 lg:top-1/2">
+                    <a href="#slide2" class="btn btn-circle bg-black text-white text-base">❮</a>
+                    <a href="#slide4" class="btn btn-circle bg-black text-white text-base">❯</a>
                 </div>
             </div>
             <div id="slide4" class="carousel-item relative w-full">
                 <img src="images/1.png" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle">❮</a>
-                    <a href="#slide1" class="btn btn-circle">❯</a>
+                <div class="absolute flex lg:justify-between justify-center gap-3 top-3/4 transform -translate-y-1/2 left-5 right-5 lg:top-1/2">
+                    <a href="#slide3" class="btn btn-circle bg-black text-white text-base">❮</a>
+                    <a href="#slide1" class="btn btn-circle bg-black text-white text-base">❯</a>
                 </div>
             </div>
         </div>
@@ -561,7 +561,7 @@
         <!-- <div class="border-dotted border-2 border-gray-400"></div> -->
         <div class="lg:mb-10 lg:mt-12 gap-6 grid grid-cols-1 lg:grid-cols-3">
             <!-- pic -->
-            <div class=" border-2 rounded-xl border-gray-400 space-y-6 lg:p-8 ">
+            <div class=" border-2 rounded-xl border-gray-400 space-y-6 p-4 lg:p-8 ">
                 <div class=" bg-[#BCED6D1A] rounded-lg p-8 ">
                     <img class="pb-6" src="images/Group 1171275317.png" alt="">
                     <p class="text-[#13131899] mb-2">Phone Number:</p>
@@ -624,21 +624,23 @@
     </section>
     <!-- footer section -->
     <footer class="footer p-10 mt-10 lg:mt-24 bg-[#131318] text-white ">
-        <aside class="lg:pl-10 text-center">
-          <h2 class="text-2xl font-bold">Get In Touch</h2>
-          <p class="lg:w-[340px] text-[#FFFFFF99] ">Get In Touch is a common phrase used in various contexts to encourage communication or contact. Whether it's on a website, in an email signature, or as part of a marketing message.</p>
-          <div class="flex sm:text-center md:mx-auto lg:items-center gap-4">
+        <aside class="lg:pl-10 ">
+          <div class=" text-center sm:text-left">
+            <h2 class="text-2xl font-bold">Get In Touch</h2>
+          <p class="lg:w-[340px] text-[#FFFFFF99] mt-4">Get In Touch is a common phrase used in various contexts to encourage communication or contact. Whether it's on a website, in an email signature, or as part of a marketing message.</p>
+          <div class="flex sm:justify-start justify-center text-center sm:text-left gap-4 my-4">
             <i class="fa-regular fa-envelope text-[#FF4240] text-xl"></i>
             <p class="text-[#FFFFFF99] font-normal text-base">hockeys@support.com</p>
           </div>
-          <div class="flex text-center mx-auto items-center gap-4">
+          <div class="flex sm:justify-start justify-center text-center sm:text-left gap-4">
             <i class="fa-solid fa-phone text-[#FF4240] text-xl"></i>
             <p class="text-[#FFFFFF99] font-normal text-base">(+62) 123-321-543</p>
           </div>
+          </div>
         </aside> 
-        <div class="flex lg:gap-44 gap-16 lg:justify-center ">
-            <nav>
-                <header class="text-base font-normal mb-4">Company</header> 
+        <div class="flex lg:gap-44 gap-10 lg:justify-center ">
+            <nav class="text-center sm:text-left">
+                <header class="text-base font-semibold mb-4">Company</header> 
                 <div class="mb-2">
                     <a class="text-[#FFFFFF99]">About us</a>
                 </div>
@@ -655,8 +657,8 @@
                     <a class="text-[#FFFFFF99]">Legal Notice</a>
                 </div>
               </nav> 
-              <nav>
-                <header class="text-base font-normal mb-4">Support</header> 
+              <nav class="text-center sm:text-left">
+                <header class="text-base font-semibold mb-4">Support</header> 
                 <div class="mb-2">
                     <a class="text-[#FFFFFF99]">Help Center</a>
                 </div>
@@ -671,8 +673,8 @@
                 </div>
               </nav> 
         </div>
-        <nav class="flex justify-center flex-col mx-auto text-center">
-          <header class="text-base font-normal mb-4">Services</header> 
+        <nav class="flex justify-center flex-col items-center mx-auto sm:items-start text-center sm:text-left">
+          <header class="text-base font-semibold mb-4">Services</header> 
           <div class="mb-2">
             <a class="text-[#FFFFFF99]">Academy</a>
           </div>
